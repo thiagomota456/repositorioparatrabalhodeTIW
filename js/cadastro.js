@@ -81,6 +81,9 @@ function tentarGravar(e) {
         salvaDados(objDados)
         alert('Cadastro efetuado com sucesso')
     }
+    else{
+        alert("Preencha todos os campos")
+    }
 }
 
 function salvaDados (dados) {
